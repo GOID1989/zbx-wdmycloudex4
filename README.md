@@ -3,6 +3,10 @@ Zabbix SNMP Template for (Western Digital) WD My Cloud EX4
 
 In WD My Cloud EX4 is simple (MIBs here http://downloads.wdc.com/nas/WDMYCLOUDEX4-MIB.txt). 
 
+Because some OID return not-clear-byte values - in items used "regex-magic". Loosing some
+precision (i try to beat this problem), but give more flexiable data:
+![alt_text](https://github.com/GOID1989/zbx-wdmycloudex4/raw/master/zabbix_preproccessing.PNG)
+
 ## Prerequisites:
  - Enable SNMP on WD My Cloud EX4
  - Zabbix 3.4+ with preproccessing support for regex-magic on item
