@@ -11,6 +11,11 @@ precision (i try to beat this problem), for flexiable data:
  - Enable SNMP on WD My Cloud EX4
  - Zabbix 3.4+ with preproccessing support for regex-magic on item
 
+## Feautres LLD 
+ - [x] physical disks 
+ - [x] logical disks
+ - [x] UPS
+ 
 ## Notice:
 In my env this NAS is "lazy" and have problems with BULK SNMP queries from Zabbix.
 Template uses vars set on host-level:
